@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notes-app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+  <div class="container">
+    <h1 class="heading">Notes App</h1>
+
+    <div id="tasks-container" class="tasks-container"></div>
+  </div>
+    <div class="task-input-container">
+      <input
+        type="text"
+        id="task-input"
+        placeholder="Enter a task"
+        class="task-input"
+      />
+      <button onclick="addTask()" class="btn-add">Add Task</button>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
